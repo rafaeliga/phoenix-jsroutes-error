@@ -13,3 +13,7 @@ import "../css/app.scss"
 //     import socket from "./socket"
 //
 import "phoenix_html"
+
+import routes from '../static/js/phoenix-jsroutes'
+
+console.log("route test", routes.pageIndex())
